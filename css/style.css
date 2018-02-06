@@ -1,0 +1,91 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: arial;
+}
+
+body {
+  background-image: url(grfx/bg.png);
+}
+
+h1 {
+  font-family: "Black Ops One";
+  font-size: 120px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 120px;
+  color: #fff;
+  text-align: center;
+  margin-top: 40px;
+}
+
+nav {
+  margin: 0 auto;
+  background-color: rgba(26, 26, 26, 0.9);
+  padding: 10px 20px;
+  width: 700px;
+}
+
+nav a {
+  padding: 0 5px;
+  color: #fff;
+  text-decoration: none;
+}
+nav a:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+main {
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+  width: 700px;
+}
+
+h2 {
+  margin: 15px 0;
+  font-size: 30px;
+}
+
+main div {
+  display: flex;
+  flex-direction: row;
+}
+
+p {
+  padding: 5px 0px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  padding: 10px 0px;
+}
+
+input {
+  margin: 5px 0px;
+  padding: 5px 0px;
+  width: 300px;
+  margin-left: 30px;
+}
+
+#send {
+  background: linear-gradient(-90deg,rgba(255, 255, 255, 0.5), #fff, rgba(255, 255, 255, 0.5));
+}
+
+footer {
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgba(26, 26, 26, 0.9);
+  padding: 10px 20px;
+  width: 700px;
+  color: #fff;
+}
